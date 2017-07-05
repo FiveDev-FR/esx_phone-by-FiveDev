@@ -1,0 +1,18 @@
+--            _           (`-') (`-')  _ _(`-')    (`-')  _      (`-')
+--   <-.     (_)         _(OO ) ( OO).-/( (OO ).-> ( OO).-/     _(OO )
+--(`-')-----.,-(`-'),--.(_/,-.\(,------. \    .'_ (,------.,--.(_/,-.\
+--(OO|(_\---'| ( OO)\   \ / (_/ |  .---' '`'-..__) |  .---'\   \ / (_/
+-- / |  '--. |  |  ) \   /   / (|  '--.  |  |  ' |(|  '--.  \   /   / 
+-- \_)  .--'(|  |_/ _ \     /_) |  .--'  |  |  / : |  .--' _ \     /_)
+--  `|  |_)  |  |'->\-'\   /    |  `---. |  '-'  / |  `---.\-'\   /   
+--   `--'    `--'       `-'     `------' `------'  `------'    `-'    
+
+- coller esx_phone dans esx
+- Installer le sql dans la bdd
+- Ajouter esx_phone dans votre citmp-server
+- supprimer les 
+      TriggerEvent('esx_phone:registerCallback', function(source, phoneNumber, message)
+      end)
+  dans les ambulance, depanneurs, taxi et policejob.
+
+-si vous modifiez ces fichiers, vous devez partager cette nouvelle version.
